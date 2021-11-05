@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEATHER</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <h1 id="title">WEATHER</h1>
+  <br><br><br>
+<input type="text" placeholder="City name" id="cityName">
+<button onclick="getWeather()">SEARCH</button>
+  <div class="weather">
+
+    <b id="cn" style="font-size: 40px;"></b><hr>
+    <b style="font-size: 30px;font-family: cursive;">WEATHER:</b><b id="wth" style="font-size: 30px;"></b><br>
+    <b style="font-size: 20px;font-family: cursive;">DESCRIPTION:</b><b id="desc" style="font-size: 20px;"></b>
+    <hr>
+    <b style="font-size: 17px;font-family: monospace;">API: https://community-open-weather-map.p.rapidapi.com</b>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
